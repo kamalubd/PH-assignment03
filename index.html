@@ -90,33 +90,78 @@
 
     </header>
 <!--------------- end header section ------------------>
-<!------------------------ start main section ---------------------->
+<!------------------------ start courses section ---------------------->
 <main class="container text-center my-5">
-<div class="row gx-4">
+<section class="row gx-lg-4 gy-4 gy-lg-0">
     <div class="tedu-single-courses col-lg-6 col-12">
-        <div class="d-flex border rounded">
+        <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
             <div><img src="images/course/course-1.png" alt=""></div>
         <div class="ps-2 text-start">
-            <h4>Fundamental of UI/UX Design</h4>
-            <p>By enrolling in this course you will learn basic of UI/UX Design. You'll look like a superstar designer, even if you're a beginner!</p>
+            <h5>Fundamental of UI/UX Design</h5>
+            <small>By enrolling in this course you will learn basic of UI/UX Design. You'll look like a superstar designer, even if you're a beginner!</small>
             <strong><p class="text-info">Price: $25</p></strong>
         </div>
         </div>
 
     </div>
     <div class="tedu-single-courses col-lg-6 col-12">
-        <div class="d-flex border rounded">
+        <div class="d-flex flex-column flex-lg-row flex-md-row border rounded">
             <div><img src="images/course/course-2.png" alt=""></div>
             <div class="ps-2 text-start">
-            <h4>Javascript: From Zero to Expert!</h4>
-            <p>The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!</p>
+            <h5>Javascript: From Zero to Expert!</h5>
+            <small>The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!</small>
             <strong><p class="text-info">Price: $40</p></strong>
         </div>
         </div>
-
     </div>
+</section>
 
-</div>
+<!------------------------- start register section ----------------------->
+<section class="my-5">
+    <div class="d-flex justify-content-center align-items-center bg-info" style="height: 200px;">
+        <div>
+            <h3>Ready to Join</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolorem quaerat quas, minima totam libero.</p>
+        </div>
+        <div>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Register to Enroll</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <!-- modal form  -->
+        <div class="modal-body">
+            <div class="row gx-5 gy-5">
+                <div class="col-6">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-6">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+                <div class="col-12">
+                    <input type="email" class="form-control" placeholder="Your e-mail">
+                  </div>
+                  <div class="col-12">
+                    <input type="password" class="form-control" placeholder="Password">
+                  </div>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Register</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+        </div>
+    </div>
+</section>
 
 
 
